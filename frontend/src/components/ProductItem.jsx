@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import $ from "jquery";
 import Popup from "../components/Popup";
+
 import {
   FaUser,
   FaCartPlus,
@@ -12,8 +13,8 @@ import {
 } from "react-icons/fa";
 
 function ProductItem(props) {
-  const orderUrl = "http://localhost:5000/api/order";
-  const baseURL = "http://localhost:5000/api/product/" + props.id;
+  const orderUrl = process.env.REACT_APP_API_BASE_URL + "/order";
+  const baseURL = process.env.REACT_APP_API_BASE_URL + "/product/" + props.id;
 
   const [products, setProduct] = React.useState(null);
   const [counter, setCounter] = React.useState(1);

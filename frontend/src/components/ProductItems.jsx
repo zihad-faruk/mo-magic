@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-const baseURL = "http://localhost:5000/api/products";
+const baseURL = process.env.REACT_APP_API_BASE_URL + "/products";
 
 function ProductItems() {
   const [products, setProduct] = React.useState(null);
