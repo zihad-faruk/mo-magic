@@ -10,9 +10,9 @@
  
  2. Copy env_example file, rename it to .env and then change necessary variables .
  3. Then go to frontend folder and run the above command again . This will install the frontend part .
- 4. copy env.local_example , rename it to .env.local and then change necessary variables . 
- 5. Then run ```npm run server``` to start the backend .
- 6. Execute ```npm run client``` to start the backend .
+ 4. Inside frontend folder copy env.local_example , rename it to .env.local and then change necessary variables . 
+ 5. Then run ```npm run server``` from the root folder to start the backend .
+ 6. Execute ```npm run client``` from the root folder to start the frontend .
  
  ## Business Logics
  1. Api to create product is provided in the collection
