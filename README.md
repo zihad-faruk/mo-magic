@@ -1,5 +1,9 @@
 # mo-magic
 
+## Prerequisites
+1. node v14.15.4 or above
+2. npm v6.14.10 or above
+
 ## Installation steps
 1. First install the node module by running the following command inside the root directory
 
